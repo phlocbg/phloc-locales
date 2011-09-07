@@ -33,7 +33,7 @@ import org.junit.Test;
 
 import com.phloc.locales.sh.DecimalFormatSymbolsProvider_sh;
 
-public class FuncTestDecimalFormatSymbols
+public final class FuncTestDecimalFormatSymbols
 {
   private static final Locale BOSNIAN_LOCALE = new Locale ("bs");
 

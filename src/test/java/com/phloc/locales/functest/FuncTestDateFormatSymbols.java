@@ -34,7 +34,7 @@ import org.junit.Test;
 import com.phloc.locales.sh.DateFormatSymbolsProvider_sh;
 import com.phloc.locales.sh.DateFormatSymbolsProvider_sh_RS;
 
-public class FuncTestDateFormatSymbols
+public final class FuncTestDateFormatSymbols
 {
   private static final String BOSNIAN_LANGUAGE = "bs";
   private static final String SERBIA = "RS";

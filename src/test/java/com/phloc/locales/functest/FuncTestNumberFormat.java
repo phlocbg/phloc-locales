@@ -34,7 +34,7 @@ import org.junit.Test;
 import com.phloc.locales.sh.NumberFormatProvider_sh;
 import com.phloc.locales.sh.NumberFormatProvider_sh_RS;
 
-public class FuncTestNumberFormat
+public final class FuncTestNumberFormat
 {
   private static final Locale BOSNIAN_LOCALE = new Locale ("bs");
   private static final Locale SH_RS_LOCALE = new Locale ("sh", "RS");

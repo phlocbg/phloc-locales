@@ -33,7 +33,7 @@ import org.junit.Test;
 
 import com.phloc.locales.sh.LocaleNameProvider_sh;
 
-public class FuncTestLocaleName
+public final class FuncTestLocaleName
 {
   private static final Locale BOSNIAN_LOCALE = new Locale ("bs");
 
