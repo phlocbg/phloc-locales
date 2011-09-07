@@ -33,7 +33,7 @@ import org.junit.Test;
 
 import com.phloc.locales.sh.CollatorProvider_sh;
 
-public class FuncTestCollator
+public final class FuncTestCollator
 {
   private static final Locale BOSNIAN_LOCALE = new Locale ("bs");
 

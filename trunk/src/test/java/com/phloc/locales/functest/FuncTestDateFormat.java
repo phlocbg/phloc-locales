@@ -38,7 +38,7 @@ import com.phloc.locales.sh.DateFormatProvider_sh;
 import com.phloc.locales.sh.DateFormatProvider_sh_HR;
 import com.phloc.locales.sh.DateFormatProvider_sh_RS;
 
-public class FuncTestDateFormat
+public final class FuncTestDateFormat
 {
   private static final int DAYS_RANGE = 400;
   private static final Locale BOSNIAN_LOCALE = new Locale ("bs");
