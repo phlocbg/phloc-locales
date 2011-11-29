@@ -20,7 +20,6 @@
 package com.phloc.locales.gl.spi;
 
 import java.text.DateFormatSymbols;
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.TimeZone;
 import java.util.spi.TimeZoneNameProvider;
@@ -119,7 +118,7 @@ public final class GalicianTimeZoneNameProvider extends TimeZoneNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 

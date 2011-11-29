@@ -31,8 +31,8 @@ import java.util.Locale;
 
 import org.junit.Test;
 
-import com.phloc.locales.sh.DateFormatSymbolsProvider_sh;
-import com.phloc.locales.sh.DateFormatSymbolsProvider_sh_RS;
+import com.phloc.locales.sh.spi.DateFormatSymbolsProvider_sh;
+import com.phloc.locales.sh.spi.DateFormatSymbolsProvider_sh_RS;
 
 public final class FuncTestDateFormatSymbols
 {

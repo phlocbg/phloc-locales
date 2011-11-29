@@ -1,4 +1,4 @@
-com.phloc.locales.sh.DateFormatProvider_sh
-com.phloc.locales.sh.DateFormatProvider_sh_RS
-com.phloc.locales.sh.DateFormatProvider_sh_HR
 com.phloc.locales.gl.spi.GalicianDateFormatProvider
+com.phloc.locales.sh.spi.DateFormatProvider_sh
+com.phloc.locales.sh.spi.DateFormatProvider_sh_RS
+com.phloc.locales.sh.spi.DateFormatProvider_sh_HR

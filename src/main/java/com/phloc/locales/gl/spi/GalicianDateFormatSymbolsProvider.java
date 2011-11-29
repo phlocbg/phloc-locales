@@ -21,7 +21,6 @@ package com.phloc.locales.gl.spi;
 
 import java.text.DateFormatSymbols;
 import java.text.spi.DateFormatSymbolsProvider;
-import java.util.Arrays;
 import java.util.Locale;
 
 import com.phloc.locales.gl.GalicianDateFormatSymbols;
@@ -50,7 +49,7 @@ public final class GalicianDateFormatSymbolsProvider extends DateFormatSymbolsPr
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 

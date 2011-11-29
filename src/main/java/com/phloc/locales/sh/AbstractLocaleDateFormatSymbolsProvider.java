@@ -36,7 +36,7 @@ public abstract class AbstractLocaleDateFormatSymbolsProvider extends DateFormat
   public abstract ILocaleData getLocaleData ();
 
   @Override
-  public DateFormatSymbols getInstance (final Locale locale)
+  public final DateFormatSymbols getInstance (final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -44,7 +44,7 @@ public abstract class AbstractLocaleDateFormatSymbolsProvider extends DateFormat
   }
 
   @Override
-  public Locale [] getAvailableLocales ()
+  public final Locale [] getAvailableLocales ()
   {
     return getLocaleData ().getSupportedLocales ();
   }

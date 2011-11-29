@@ -22,7 +22,6 @@ package com.phloc.locales.gl.spi;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.text.spi.DateFormatProvider;
-import java.util.Arrays;
 import java.util.Locale;
 
 import com.phloc.locales.gl.Locales;
@@ -74,7 +73,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -136,7 +135,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -169,7 +168,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 

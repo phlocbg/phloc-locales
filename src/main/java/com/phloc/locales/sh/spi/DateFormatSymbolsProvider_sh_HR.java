@@ -19,18 +19,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.phloc.locales.sh;
+package com.phloc.locales.sh.spi;
+
+import com.phloc.locales.sh.AbstractLocaleDateFormatSymbolsProvider;
+import com.phloc.locales.sh.ILocaleData;
+import com.phloc.locales.sh.Serbocroatian_HR;
 
 
 /**
- * A LocaleNameProvider for the Serbocroatian languages (primarily Bosnian
- * usage).
+ * A DateFormatSymbolsProvider for the Serbocroatian language, Croatian variant.
  * 
  * @author Klaus Brunner
  */
-public class LocaleNameProvider_sh extends AbstractLocaleLocaleNameProvider
+public class DateFormatSymbolsProvider_sh_HR extends AbstractLocaleDateFormatSymbolsProvider
 {
-  private static final ILocaleData s_aLocaleData = new Serbocroatian ();
+  private static final ILocaleData s_aLocaleData = new Serbocroatian_HR ();
 
   @Override
   public ILocaleData getLocaleData ()

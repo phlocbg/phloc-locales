@@ -22,7 +22,6 @@ package com.phloc.locales.gl.spi;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.text.spi.NumberFormatProvider;
-import java.util.Arrays;
 import java.util.Locale;
 
 import com.phloc.locales.gl.GalicianDecimalFormatSymbols;
@@ -56,7 +55,7 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -80,7 +79,7 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -104,7 +103,7 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -128,7 +127,7 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 

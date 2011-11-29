@@ -31,7 +31,7 @@ import java.util.Locale;
 
 import org.junit.Test;
 
-import com.phloc.locales.sh.DecimalFormatSymbolsProvider_sh;
+import com.phloc.locales.sh.spi.DecimalFormatSymbolsProvider_sh;
 
 public final class FuncTestDecimalFormatSymbols
 {

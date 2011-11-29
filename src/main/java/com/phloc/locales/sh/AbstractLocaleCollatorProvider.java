@@ -36,14 +36,14 @@ public abstract class AbstractLocaleCollatorProvider extends CollatorProvider
   public abstract ILocaleData getLocaleData ();
 
   @Override
-  public Collator getInstance (final Locale locale)
+  public final Collator getInstance (final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
     return getLocaleData ().getCollator ();
   }
 
   @Override
-  public Locale [] getAvailableLocales ()
+  public final Locale [] getAvailableLocales ()
   {
     return getLocaleData ().getSupportedLocales ();
   }

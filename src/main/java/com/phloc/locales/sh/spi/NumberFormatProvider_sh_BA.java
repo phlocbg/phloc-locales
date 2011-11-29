@@ -19,17 +19,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.phloc.locales.sh;
+package com.phloc.locales.sh.spi;
+
+import com.phloc.locales.sh.AbstractLocaleNumberFormatProvider;
+import com.phloc.locales.sh.ILocaleData;
+import com.phloc.locales.sh.Serbocroatian_BA;
 
 
 /**
- * A DecimalFormatSymbolsProvider class for the Serbocroatian languages.
+ * A NumberFormatProvider for the Serbocroatian language, Bosnian variant.
  * 
  * @author Klaus Brunner
  */
-public class DecimalFormatSymbolsProvider_sh extends AbstractLocaleDecimalFormatSymbolsProvider
+public class NumberFormatProvider_sh_BA extends AbstractLocaleNumberFormatProvider
 {
-  private static final ILocaleData s_aLocaleData = new Serbocroatian ();
+  private static final ILocaleData s_aLocaleData = new Serbocroatian_BA ();
 
   @Override
   public ILocaleData getLocaleData ()

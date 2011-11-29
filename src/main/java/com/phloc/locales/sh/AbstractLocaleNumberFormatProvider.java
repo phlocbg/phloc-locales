@@ -38,7 +38,7 @@ public abstract class AbstractLocaleNumberFormatProvider extends NumberFormatPro
   public abstract ILocaleData getLocaleData ();
 
   @Override
-  public NumberFormat getCurrencyInstance (final Locale locale)
+  public final NumberFormat getCurrencyInstance (final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -50,7 +50,7 @@ public abstract class AbstractLocaleNumberFormatProvider extends NumberFormatPro
   }
 
   @Override
-  public NumberFormat getIntegerInstance (final Locale locale)
+  public final NumberFormat getIntegerInstance (final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -65,7 +65,7 @@ public abstract class AbstractLocaleNumberFormatProvider extends NumberFormatPro
   }
 
   @Override
-  public NumberFormat getNumberInstance (final Locale locale)
+  public final NumberFormat getNumberInstance (final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -77,7 +77,7 @@ public abstract class AbstractLocaleNumberFormatProvider extends NumberFormatPro
   }
 
   @Override
-  public NumberFormat getPercentInstance (final Locale locale)
+  public final NumberFormat getPercentInstance (final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -89,7 +89,7 @@ public abstract class AbstractLocaleNumberFormatProvider extends NumberFormatPro
   }
 
   @Override
-  public Locale [] getAvailableLocales ()
+  public final Locale [] getAvailableLocales ()
   {
     return getLocaleData ().getSupportedLocales ();
   }
