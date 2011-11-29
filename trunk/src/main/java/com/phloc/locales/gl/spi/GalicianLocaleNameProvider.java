@@ -19,7 +19,6 @@
  */
 package com.phloc.locales.gl.spi;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -53,7 +52,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -72,7 +71,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -91,7 +90,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 

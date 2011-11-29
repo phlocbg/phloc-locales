@@ -21,7 +21,6 @@ package com.phloc.locales.gl.spi;
 
 import java.text.DecimalFormatSymbols;
 import java.text.spi.DecimalFormatSymbolsProvider;
-import java.util.Arrays;
 import java.util.Locale;
 
 import com.phloc.locales.gl.GalicianDecimalFormatSymbols;
@@ -50,7 +49,7 @@ public final class GalicianDecimalFormatSymbolsProvider extends DecimalFormatSym
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 

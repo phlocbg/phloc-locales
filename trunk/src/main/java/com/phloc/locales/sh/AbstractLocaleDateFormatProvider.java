@@ -37,7 +37,7 @@ public abstract class AbstractLocaleDateFormatProvider extends DateFormatProvide
   public abstract ILocaleData getLocaleData ();
 
   @Override
-  public DateFormat getDateInstance (final int style, final Locale locale)
+  public final DateFormat getDateInstance (final int style, final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -46,7 +46,7 @@ public abstract class AbstractLocaleDateFormatProvider extends DateFormatProvide
   }
 
   @Override
-  public DateFormat getDateTimeInstance (final int dateStyle, final int timeStyle, final Locale locale)
+  public final DateFormat getDateTimeInstance (final int dateStyle, final int timeStyle, final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -55,7 +55,7 @@ public abstract class AbstractLocaleDateFormatProvider extends DateFormatProvide
   }
 
   @Override
-  public DateFormat getTimeInstance (final int style, final Locale locale)
+  public final DateFormat getTimeInstance (final int style, final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -110,7 +110,7 @@ public abstract class AbstractLocaleDateFormatProvider extends DateFormatProvide
   }
 
   @Override
-  public Locale [] getAvailableLocales ()
+  public final Locale [] getAvailableLocales ()
   {
     return getLocaleData ().getSupportedLocales ();
   }

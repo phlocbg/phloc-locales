@@ -31,7 +31,7 @@ import java.util.spi.LocaleNameProvider;
 
 import org.junit.Test;
 
-import com.phloc.locales.sh.LocaleNameProvider_sh;
+import com.phloc.locales.sh.spi.LocaleNameProvider_sh;
 
 public final class FuncTestLocaleName
 {

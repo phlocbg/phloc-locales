@@ -36,7 +36,7 @@ public abstract class AbstractLocaleDecimalFormatSymbolsProvider extends Decimal
   public abstract ILocaleData getLocaleData ();
 
   @Override
-  public DecimalFormatSymbols getInstance (final Locale locale)
+  public final DecimalFormatSymbols getInstance (final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -44,7 +44,7 @@ public abstract class AbstractLocaleDecimalFormatSymbolsProvider extends Decimal
   }
 
   @Override
-  public Locale [] getAvailableLocales ()
+  public final Locale [] getAvailableLocales ()
   {
     return getLocaleData ().getSupportedLocales ();
   }

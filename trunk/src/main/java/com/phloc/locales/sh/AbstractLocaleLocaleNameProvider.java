@@ -35,7 +35,7 @@ public abstract class AbstractLocaleLocaleNameProvider extends LocaleNameProvide
   public abstract ILocaleData getLocaleData ();
 
   @Override
-  public String getDisplayCountry (final String countryCode, final Locale locale)
+  public final String getDisplayCountry (final String countryCode, final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -60,7 +60,7 @@ public abstract class AbstractLocaleLocaleNameProvider extends LocaleNameProvide
   }
 
   @Override
-  public String getDisplayLanguage (final String languageCode, final Locale locale)
+  public final String getDisplayLanguage (final String languageCode, final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
@@ -85,13 +85,13 @@ public abstract class AbstractLocaleLocaleNameProvider extends LocaleNameProvide
   }
 
   @Override
-  public String getDisplayVariant (final String variant, final Locale locale)
+  public final String getDisplayVariant (final String variant, final Locale locale)
   {
     return null;
   }
 
   @Override
-  public Locale [] getAvailableLocales ()
+  public final Locale [] getAvailableLocales ()
   {
     return getLocaleData ().getSupportedLocales ();
   }

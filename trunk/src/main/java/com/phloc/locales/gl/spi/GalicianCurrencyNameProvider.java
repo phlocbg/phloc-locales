@@ -19,7 +19,6 @@
  */
 package com.phloc.locales.gl.spi;
 
-import java.util.Arrays;
 import java.util.Currency;
 import java.util.Locale;
 import java.util.spi.CurrencyNameProvider;
@@ -49,7 +48,7 @@ public final class GalicianCurrencyNameProvider extends CurrencyNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        Locales.GALICIAN_LIST +
                                         ")");
   }
 

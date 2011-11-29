@@ -31,8 +31,8 @@ import java.util.Locale;
 
 import org.junit.Test;
 
-import com.phloc.locales.sh.NumberFormatProvider_sh;
-import com.phloc.locales.sh.NumberFormatProvider_sh_RS;
+import com.phloc.locales.sh.spi.NumberFormatProvider_sh;
+import com.phloc.locales.sh.spi.NumberFormatProvider_sh_RS;
 
 public final class FuncTestNumberFormat
 {

@@ -31,7 +31,7 @@ import java.util.Locale;
 
 import org.junit.Test;
 
-import com.phloc.locales.sh.CollatorProvider_sh;
+import com.phloc.locales.sh.spi.CollatorProvider_sh;
 
 public final class FuncTestCollator
 {
