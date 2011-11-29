@@ -1,3 +1,4 @@
 com.phloc.locales.sh.DecimalFormatSymbolsProvider_sh
 com.phloc.locales.sh.DecimalFormatSymbolsProvider_sh_BA
 com.phloc.locales.sh.DecimalFormatSymbolsProvider_sh_HR
+com.phloc.locales.gl.spi.GalicianDecimalFormatSymbolsProvider

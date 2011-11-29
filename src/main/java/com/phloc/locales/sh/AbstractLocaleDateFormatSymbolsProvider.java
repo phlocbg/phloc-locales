@@ -19,13 +19,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.phloc.locales;
+package com.phloc.locales.sh;
 
-import java.text.DecimalFormatSymbols;
-import java.text.spi.DecimalFormatSymbolsProvider;
+import java.text.DateFormatSymbols;
+import java.text.spi.DateFormatSymbolsProvider;
 import java.util.Locale;
 
-public abstract class AbstractLocaleDecimalFormatSymbolsProvider extends DecimalFormatSymbolsProvider
+public abstract class AbstractLocaleDateFormatSymbolsProvider extends DateFormatSymbolsProvider
 {
   /**
    * Get LocaleData for this instance. Must be provided by concrete
@@ -36,11 +36,11 @@ public abstract class AbstractLocaleDecimalFormatSymbolsProvider extends Decimal
   public abstract ILocaleData getLocaleData ();
 
   @Override
-  public DecimalFormatSymbols getInstance (final Locale locale)
+  public DateFormatSymbols getInstance (final Locale locale)
   {
     getLocaleData ().checkLocaleSupported (locale);
 
-    return new LocaleDecimalFormatSymbols (getLocaleData ());
+    return new LocaleDateFormatSymbols (getLocaleData ());
   }
 
   @Override

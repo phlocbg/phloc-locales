@@ -21,8 +21,6 @@
  */
 package com.phloc.locales.sh;
 
-import com.phloc.locales.AbstractLocaleCollatorProvider;
-import com.phloc.locales.ILocaleData;
 
 /**
  * A CollatorProvider for the Serbocroatian languages.

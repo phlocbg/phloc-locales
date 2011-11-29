@@ -21,8 +21,6 @@
  */
 package com.phloc.locales.sh;
 
-import com.phloc.locales.AbstractLocaleDecimalFormatSymbolsProvider;
-import com.phloc.locales.ILocaleData;
 
 /**
  * A DecimalFormatSymbolsProvider for the Serbocroatian language, Croatian

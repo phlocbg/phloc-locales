@@ -35,7 +35,7 @@
     </repository>
   </distributionManagement>
 
-  <!-- no dependencies, because this is a JDK extension! -->  
+  <!-- no runtime dependencies, because this is a JDK extension! -->  
   <dependencies>
   </dependencies>
 

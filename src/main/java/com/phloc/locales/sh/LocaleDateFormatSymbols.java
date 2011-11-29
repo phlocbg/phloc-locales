@@ -19,19 +19,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.phloc.locales;
+package com.phloc.locales.sh;
 
-import java.text.DecimalFormatSymbols;
+import java.text.DateFormatSymbols;
 
-public class LocaleDecimalFormatSymbols extends DecimalFormatSymbols
+public class LocaleDateFormatSymbols extends DateFormatSymbols
 {
   private final ILocaleData m_aLocaleData;
 
   /**
    * @param aLocaleData
-   *        Never <code>null</code>
+   *        never <code>null</code>.
    */
-  public LocaleDecimalFormatSymbols (final ILocaleData aLocaleData)
+  public LocaleDateFormatSymbols (final ILocaleData aLocaleData)
   {
     m_aLocaleData = aLocaleData;
     initializeFields ();
@@ -39,18 +39,12 @@ public class LocaleDecimalFormatSymbols extends DecimalFormatSymbols
 
   protected void initializeFields ()
   {
-    setDecimalSeparator (m_aLocaleData.getDecimalSeparator ());
-    setGroupingSeparator (m_aLocaleData.getGroupingSeparator ());
-    setPatternSeparator (m_aLocaleData.getPatternSeparator ());
-    setPercent (m_aLocaleData.getPercent ());
-    setZeroDigit (m_aLocaleData.getZeroDigit ());
-    setDigit (m_aLocaleData.getDigit ());
-    setMinusSign (m_aLocaleData.getMinusSign ());
-    setExponentSeparator (m_aLocaleData.getExponentSeparator ());
-    setPerMill (m_aLocaleData.getPerMille ());
-    setInfinity (m_aLocaleData.getInfinity ());
-    setNaN (m_aLocaleData.getNaN ());
-    setCurrencySymbol (m_aLocaleData.getCurrencySymbol ());
+    setEras (m_aLocaleData.getEras ());
+    setLocalPatternChars (m_aLocaleData.getPatternChars ());
+    setMonths (m_aLocaleData.getMonths ());
+    setShortMonths (m_aLocaleData.getShortMonths ());
+    setWeekdays (m_aLocaleData.getWeekdays ());
+    setShortWeekdays (m_aLocaleData.getShortWeekdays ());
   }
 
   @Override

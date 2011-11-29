@@ -21,8 +21,6 @@
  */
 package com.phloc.locales.sh;
 
-import com.phloc.locales.AbstractLocaleDateFormatSymbolsProvider;
-import com.phloc.locales.ILocaleData;
 
 /**
  * A DateFormatSymbolsProvider for the Serbocroatian language, Croatian variant.
