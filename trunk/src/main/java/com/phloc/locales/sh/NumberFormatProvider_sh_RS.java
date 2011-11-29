@@ -21,8 +21,6 @@
  */
 package com.phloc.locales.sh;
 
-import com.phloc.locales.AbstractLocaleNumberFormatProvider;
-import com.phloc.locales.ILocaleData;
 
 /**
  * A NumberFormatProvider for the Serbocroatian language, Serbian variant.

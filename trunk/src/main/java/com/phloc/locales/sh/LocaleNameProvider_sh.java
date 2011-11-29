@@ -21,8 +21,6 @@
  */
 package com.phloc.locales.sh;
 
-import com.phloc.locales.AbstractLocaleLocaleNameProvider;
-import com.phloc.locales.ILocaleData;
 
 /**
  * A LocaleNameProvider for the Serbocroatian languages (primarily Bosnian

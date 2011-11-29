@@ -25,7 +25,6 @@ import java.text.Collator;
 import java.util.Arrays;
 import java.util.Locale;
 
-import com.phloc.locales.ILocaleData;
 
 /**
  * Various locale settings for the Serbocroatian languages (mostly Bosnian
