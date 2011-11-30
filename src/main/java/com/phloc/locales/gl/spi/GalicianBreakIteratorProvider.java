@@ -21,10 +21,9 @@ package com.phloc.locales.gl.spi;
 
 import java.text.BreakIterator;
 import java.text.spi.BreakIteratorProvider;
-import java.util.Arrays;
 import java.util.Locale;
 
-import com.phloc.locales.gl.Locales;
+import com.phloc.locales.gl.CLocales;
 
 public final class GalicianBreakIteratorProvider extends BreakIteratorProvider
 {
@@ -36,14 +35,14 @@ public final class GalicianBreakIteratorProvider extends BreakIteratorProvider
   {
     if (locale == null)
       throw new NullPointerException ();
-    if (Locales.GALICIAN_LIST.contains (locale))
-      return BreakIterator.getCharacterInstance (Locales.CASTILIAN);
+    if (CLocales.GALICIAN_LIST.contains (locale))
+      return BreakIterator.getCharacterInstance (CLocales.CASTILIAN);
 
     throw new IllegalArgumentException ("Locale \"" +
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -52,13 +51,13 @@ public final class GalicianBreakIteratorProvider extends BreakIteratorProvider
   {
     if (locale == null)
       throw new NullPointerException ();
-    if (Locales.GALICIAN_LIST.contains (locale))
-      return BreakIterator.getLineInstance (Locales.CASTILIAN);
+    if (CLocales.GALICIAN_LIST.contains (locale))
+      return BreakIterator.getLineInstance (CLocales.CASTILIAN);
     throw new IllegalArgumentException ("Locale \"" +
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -69,15 +68,15 @@ public final class GalicianBreakIteratorProvider extends BreakIteratorProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
-      return BreakIterator.getSentenceInstance (Locales.CASTILIAN);
+      return BreakIterator.getSentenceInstance (CLocales.CASTILIAN);
     }
     throw new IllegalArgumentException ("Locale \"" +
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Arrays.asList (Locales.GALICIAN_ARRAY) +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -86,20 +85,19 @@ public final class GalicianBreakIteratorProvider extends BreakIteratorProvider
   {
     if (locale == null)
       throw new NullPointerException ();
-    if (Locales.GALICIAN_LIST.contains (locale))
-      return BreakIterator.getWordInstance (Locales.CASTILIAN);
+    if (CLocales.GALICIAN_LIST.contains (locale))
+      return BreakIterator.getWordInstance (CLocales.CASTILIAN);
     throw new IllegalArgumentException ("Locale \"" +
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return Locales.GALICIAN_ARRAY;
+    return CLocales.getLocaleArray ();
   }
-
 }

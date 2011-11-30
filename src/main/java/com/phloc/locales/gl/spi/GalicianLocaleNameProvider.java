@@ -24,7 +24,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.spi.LocaleNameProvider;
 
-import com.phloc.locales.gl.Locales;
+import com.phloc.locales.gl.CLocales;
 
 public final class GalicianLocaleNameProvider extends LocaleNameProvider
 {
@@ -44,7 +44,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
       return GALICIAN_DISPLAY_COUNTRIES.get (countryCode);
     }
@@ -52,7 +52,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -63,7 +63,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
       return GALICIAN_DISPLAY_LANGUAGES.get (languageCode);
     }
@@ -71,7 +71,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -82,7 +82,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
       return variant;
     }
@@ -90,14 +90,14 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return Locales.GALICIAN_ARRAY;
+    return CLocales.getLocaleArray ();
   }
 
   private static Map <String, String> createGalicianDisplayCountries ()

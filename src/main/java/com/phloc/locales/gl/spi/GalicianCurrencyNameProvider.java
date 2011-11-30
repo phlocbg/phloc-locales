@@ -23,7 +23,7 @@ import java.util.Currency;
 import java.util.Locale;
 import java.util.spi.CurrencyNameProvider;
 
-import com.phloc.locales.gl.Locales;
+import com.phloc.locales.gl.CLocales;
 
 public final class GalicianCurrencyNameProvider extends CurrencyNameProvider
 {
@@ -40,22 +40,22 @@ public final class GalicianCurrencyNameProvider extends CurrencyNameProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
-      return Currency.getInstance (currencyCode).getSymbol (Locales.CASTILIAN);
+      return Currency.getInstance (currencyCode).getSymbol (CLocales.CASTILIAN);
     }
     throw new IllegalArgumentException ("Locale \"" +
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return Locales.GALICIAN_ARRAY;
+    return CLocales.getLocaleArray ();
   }
 
 }

@@ -23,15 +23,19 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-public final class Locales
+public final class CLocales
 {
   public static final Locale GALICIAN = new Locale ("gl");
   public static final Locale GALICIAN_ES = new Locale ("gl", "ES");
-  public static final Locale [] GALICIAN_ARRAY = new Locale [] { GALICIAN, GALICIAN_ES };
-  public static final List <Locale> GALICIAN_LIST = Arrays.asList (GALICIAN_ARRAY);
+  public static final List <Locale> GALICIAN_LIST = Arrays.asList (GALICIAN, GALICIAN_ES);
 
   public static final Locale CASTILIAN = new Locale ("es", "ES");
 
-  private Locales ()
+  private CLocales ()
   {}
+
+  public static Locale [] getLocaleArray ()
+  {
+    return new Locale [] { GALICIAN, GALICIAN_ES };
+  }
 }

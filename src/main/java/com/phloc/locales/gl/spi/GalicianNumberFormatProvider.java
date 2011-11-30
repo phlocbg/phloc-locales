@@ -24,8 +24,8 @@ import java.text.NumberFormat;
 import java.text.spi.NumberFormatProvider;
 import java.util.Locale;
 
+import com.phloc.locales.gl.CLocales;
 import com.phloc.locales.gl.GalicianDecimalFormatSymbols;
-import com.phloc.locales.gl.Locales;
 
 public final class GalicianNumberFormatProvider extends NumberFormatProvider
 {
@@ -42,9 +42,9 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
-      final NumberFormat format = NumberFormat.getCurrencyInstance (Locales.CASTILIAN);
+      final NumberFormat format = NumberFormat.getCurrencyInstance (CLocales.CASTILIAN);
       if (format instanceof DecimalFormat)
       {
         ((DecimalFormat) format).setDecimalFormatSymbols (new GalicianDecimalFormatSymbols ());
@@ -55,7 +55,7 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -66,9 +66,9 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
-      final NumberFormat format = NumberFormat.getIntegerInstance (Locales.CASTILIAN);
+      final NumberFormat format = NumberFormat.getIntegerInstance (CLocales.CASTILIAN);
       if (format instanceof DecimalFormat)
       {
         ((DecimalFormat) format).setDecimalFormatSymbols (new GalicianDecimalFormatSymbols ());
@@ -79,7 +79,7 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -90,9 +90,9 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
-      final NumberFormat format = NumberFormat.getNumberInstance (Locales.CASTILIAN);
+      final NumberFormat format = NumberFormat.getNumberInstance (CLocales.CASTILIAN);
       if (format instanceof DecimalFormat)
       {
         ((DecimalFormat) format).setDecimalFormatSymbols (new GalicianDecimalFormatSymbols ());
@@ -103,7 +103,7 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -114,9 +114,9 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
     {
       throw new NullPointerException ();
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
-      final NumberFormat format = NumberFormat.getPercentInstance (Locales.CASTILIAN);
+      final NumberFormat format = NumberFormat.getPercentInstance (CLocales.CASTILIAN);
       if (format instanceof DecimalFormat)
       {
         ((DecimalFormat) format).setDecimalFormatSymbols (new GalicianDecimalFormatSymbols ());
@@ -127,14 +127,14 @@ public final class GalicianNumberFormatProvider extends NumberFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return Locales.GALICIAN_ARRAY;
+    return CLocales.getLocaleArray ();
   }
 
 }
