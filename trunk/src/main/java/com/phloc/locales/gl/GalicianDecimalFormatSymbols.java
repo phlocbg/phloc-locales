@@ -28,6 +28,6 @@ public final class GalicianDecimalFormatSymbols extends DecimalFormatSymbols
 
   public GalicianDecimalFormatSymbols ()
   {
-    super (Locales.CASTILIAN);
+    super (CLocales.CASTILIAN);
   }
 }

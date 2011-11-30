@@ -24,7 +24,7 @@ import java.util.Locale;
 import java.util.TimeZone;
 import java.util.spi.TimeZoneNameProvider;
 
-import com.phloc.locales.gl.Locales;
+import com.phloc.locales.gl.CLocales;
 
 public final class GalicianTimeZoneNameProvider extends TimeZoneNameProvider
 {
@@ -49,10 +49,10 @@ public final class GalicianTimeZoneNameProvider extends TimeZoneNameProvider
     {
       throw new IllegalArgumentException ("Style \"" + style + "\" is not valid");
     }
-    if (Locales.GALICIAN_LIST.contains (locale))
+    if (CLocales.GALICIAN_LIST.contains (locale))
     {
 
-      final DateFormatSymbols symbols = DateFormatSymbols.getInstance (Locales.GALICIAN_ES);
+      final DateFormatSymbols symbols = DateFormatSymbols.getInstance (CLocales.GALICIAN_ES);
       final String [][] zoneStrings = symbols.getZoneStrings ();
       /*
        * First, try to retrieve a name using the specified ID as the main
@@ -118,7 +118,7 @@ public final class GalicianTimeZoneNameProvider extends TimeZoneNameProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        Locales.GALICIAN_LIST +
+                                        CLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -130,7 +130,7 @@ public final class GalicianTimeZoneNameProvider extends TimeZoneNameProvider
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return Locales.GALICIAN_ARRAY;
+    return CLocales.getLocaleArray ();
   }
 
 }
