@@ -23,7 +23,7 @@ import java.text.DateFormatSymbols;
 import java.text.spi.DateFormatSymbolsProvider;
 import java.util.Locale;
 
-import com.phloc.locales.gl.CLocales;
+import com.phloc.locales.gl.GalicianLocales;
 import com.phloc.locales.gl.GalicianDateFormatSymbols;
 
 public final class GalicianDateFormatSymbolsProvider extends DateFormatSymbolsProvider
@@ -41,7 +41,7 @@ public final class GalicianDateFormatSymbolsProvider extends DateFormatSymbolsPr
     {
       throw new NullPointerException ();
     }
-    if (CLocales.GALICIAN_LIST.contains (locale))
+    if (GalicianLocales.GALICIAN_LIST.contains (locale))
     {
       return new GalicianDateFormatSymbols ();
     }
@@ -49,14 +49,14 @@ public final class GalicianDateFormatSymbolsProvider extends DateFormatSymbolsPr
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        CLocales.GALICIAN_LIST +
+                                        GalicianLocales.GALICIAN_LIST +
                                         ")");
   }
 
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return CLocales.getLocaleArray ();
+    return GalicianLocales.getLocaleArray ();
   }
 
 }

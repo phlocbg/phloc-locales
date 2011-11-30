@@ -24,7 +24,7 @@ import java.text.SimpleDateFormat;
 import java.text.spi.DateFormatProvider;
 import java.util.Locale;
 
-import com.phloc.locales.gl.CLocales;
+import com.phloc.locales.gl.GalicianLocales;
 
 public final class GalicianDateFormatProvider extends DateFormatProvider
 {
@@ -55,7 +55,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
     {
       throw new IllegalArgumentException ("Style \"" + style + "\" is not valid");
     }
-    if (CLocales.GALICIAN_LIST.contains (locale))
+    if (GalicianLocales.GALICIAN_LIST.contains (locale))
     {
       switch (style)
       {
@@ -73,7 +73,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        CLocales.GALICIAN_LIST +
+                                        GalicianLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -92,7 +92,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
     {
       throw new IllegalArgumentException ("Style \"" + timeStyle + "\" is not valid");
     }
-    if (CLocales.GALICIAN_LIST.contains (locale))
+    if (GalicianLocales.GALICIAN_LIST.contains (locale))
     {
 
       final StringBuffer pattern = new StringBuffer ();
@@ -135,7 +135,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        CLocales.GALICIAN_LIST +
+                                        GalicianLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -150,7 +150,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
     {
       throw new IllegalArgumentException ("Style \"" + style + "\" is not valid");
     }
-    if (CLocales.GALICIAN_LIST.contains (locale))
+    if (GalicianLocales.GALICIAN_LIST.contains (locale))
     {
       switch (style)
       {
@@ -168,7 +168,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        CLocales.GALICIAN_LIST +
+                                        GalicianLocales.GALICIAN_LIST +
                                         ")");
   }
 
@@ -180,6 +180,6 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return CLocales.getLocaleArray ();
+    return GalicianLocales.getLocaleArray ();
   }
 }

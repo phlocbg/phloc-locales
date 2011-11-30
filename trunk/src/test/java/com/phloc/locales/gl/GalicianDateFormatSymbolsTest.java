@@ -9,7 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.phloc.locales.gl.GalicianDateFormatSymbols;
-import com.phloc.locales.gl.CLocales;
+import com.phloc.locales.gl.GalicianLocales;
 import com.phloc.locales.gl.spi.GalicianTimeZoneNameProvider;
 
 /**
@@ -37,9 +37,9 @@ public final class GalicianDateFormatSymbolsTest
   public void testTimeZoneNames () throws Exception
   {
     final TimeZone timeZone1 = TimeZone.getTimeZone ("CEST");
-    System.out.println (timeZone1.getDisplayName (CLocales.GALICIAN_ES));
-    System.out.println (timeZone1.getDisplayName (CLocales.CASTILIAN));
+    System.out.println (timeZone1.getDisplayName (GalicianLocales.GALICIAN_ES));
+    System.out.println (timeZone1.getDisplayName (GalicianLocales.CASTILIAN));
     final GalicianTimeZoneNameProvider prov = new GalicianTimeZoneNameProvider ();
-    System.out.println ("-" + prov.getDisplayName ("CEST", false, TimeZone.LONG, CLocales.GALICIAN_ES) + "-");
+    System.out.println ("-" + prov.getDisplayName ("CEST", false, TimeZone.LONG, GalicianLocales.GALICIAN_ES) + "-");
   }
 }

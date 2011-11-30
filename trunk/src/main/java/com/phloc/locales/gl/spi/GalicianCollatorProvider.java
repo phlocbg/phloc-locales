@@ -23,7 +23,7 @@ import java.text.Collator;
 import java.text.spi.CollatorProvider;
 import java.util.Locale;
 
-import com.phloc.locales.gl.CLocales;
+import com.phloc.locales.gl.GalicianLocales;
 
 public final class GalicianCollatorProvider extends CollatorProvider
 {
@@ -36,19 +36,19 @@ public final class GalicianCollatorProvider extends CollatorProvider
     if (locale == null)
       throw new NullPointerException ();
 
-    if (CLocales.GALICIAN_LIST.contains (locale))
-      return Collator.getInstance (CLocales.CASTILIAN);
+    if (GalicianLocales.GALICIAN_LIST.contains (locale))
+      return Collator.getInstance (GalicianLocales.CASTILIAN);
     throw new IllegalArgumentException ("Locale \"" +
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        CLocales.GALICIAN_LIST +
+                                        GalicianLocales.GALICIAN_LIST +
                                         ")");
   }
 
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return CLocales.getLocaleArray ();
+    return GalicianLocales.getLocaleArray ();
   }
 }

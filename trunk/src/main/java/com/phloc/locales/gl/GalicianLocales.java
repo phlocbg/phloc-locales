@@ -23,7 +23,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-public final class CLocales
+public final class GalicianLocales
 {
   public static final Locale GALICIAN = new Locale ("gl");
   public static final Locale GALICIAN_ES = new Locale ("gl", "ES");
@@ -31,7 +31,7 @@ public final class CLocales
 
   public static final Locale CASTILIAN = new Locale ("es", "ES");
 
-  private CLocales ()
+  private GalicianLocales ()
   {}
 
   public static Locale [] getLocaleArray ()
