@@ -2885,7 +2885,7 @@ public final class GalicianDateFormatSymbols extends DateFormatSymbols
 
   public GalicianDateFormatSymbols ()
   {
-    super (CLocales.CASTILIAN);
+    super (GalicianLocales.CASTILIAN);
     this.setMonths (GALICIAN_MONTHS);
     this.setShortMonths (GALICIAN_SHORT_MONTHS);
     this.setShortWeekdays (GALICIAN_SHORT_WEEKDAYS);

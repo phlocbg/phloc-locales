@@ -23,7 +23,7 @@ import java.text.DecimalFormatSymbols;
 import java.text.spi.DecimalFormatSymbolsProvider;
 import java.util.Locale;
 
-import com.phloc.locales.gl.CLocales;
+import com.phloc.locales.gl.GalicianLocales;
 import com.phloc.locales.gl.GalicianDecimalFormatSymbols;
 
 public final class GalicianDecimalFormatSymbolsProvider extends DecimalFormatSymbolsProvider
@@ -41,7 +41,7 @@ public final class GalicianDecimalFormatSymbolsProvider extends DecimalFormatSym
     {
       throw new NullPointerException ();
     }
-    if (CLocales.GALICIAN_LIST.contains (locale))
+    if (GalicianLocales.GALICIAN_LIST.contains (locale))
     {
       return new GalicianDecimalFormatSymbols ();
     }
@@ -49,14 +49,14 @@ public final class GalicianDecimalFormatSymbolsProvider extends DecimalFormatSym
                                         locale +
                                         "\" " +
                                         "is not one of the supported locales (" +
-                                        CLocales.GALICIAN_LIST +
+                                        GalicianLocales.GALICIAN_LIST +
                                         ")");
   }
 
   @Override
   public Locale [] getAvailableLocales ()
   {
-    return CLocales.getLocaleArray ();
+    return GalicianLocales.getLocaleArray ();
   }
 
 }
