@@ -1,0 +1,5 @@
+com.phloc.locales.gl.spi.GalicianNumberFormatProvider
+com.phloc.locales.sh.spi.NumberFormatProvider_sh
+com.phloc.locales.sh.spi.NumberFormatProvider_sh_BA
+com.phloc.locales.sh.spi.NumberFormatProvider_sh_RS
+com.phloc.locales.sh.spi.NumberFormatProvider_sh_HR
