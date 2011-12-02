@@ -8,7 +8,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>phloc-locales</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.3</version>
   <packaging>bundle</packaging>
   <name>phloc-locales</name>
   <description>phloc extended Java locales</description>
@@ -23,9 +23,9 @@
   </licenses>
   
   <scm>
-    <url>http://code.google.com/p/phloc-locales/source/browse/</url>
-    <connection>scm:svn:http://phloc-locales.googlecode.com/svn/trunk</connection>
-    <developerConnection>scm:svn:https://phloc-locales.googlecode.com/svn/trunk</developerConnection>
+    <url>http://code.google.com/p/phloc-locales/source/browse/tags/phloc-locales-1.0.3</url>
+    <connection>scm:svn:http://phloc-locales.googlecode.com/svn/tags/phloc-locales-1.0.3</connection>
+    <developerConnection>scm:svn:https://phloc-locales.googlecode.com/svn/tags/phloc-locales-1.0.3</developerConnection>
   </scm>
 
   <distributionManagement>
