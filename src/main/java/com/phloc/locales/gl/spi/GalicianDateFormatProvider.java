@@ -112,6 +112,8 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
         case DateFormat.SHORT:
           pattern.append (PATTERN_DATE_SHORT);
           break;
+        default:
+          throw new IllegalArgumentException ("Unsupported date style");
       }
       pattern.append (" ");
       switch (timeStyle)
