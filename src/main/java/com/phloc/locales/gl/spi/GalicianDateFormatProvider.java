@@ -96,8 +96,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
     }
     if (GalicianLocales.GALICIAN_LIST.contains (locale))
     {
-
-      final StringBuffer pattern = new StringBuffer ();
+      final StringBuilder pattern = new StringBuilder ();
       switch (dateStyle)
       {
         case DateFormat.FULL:
@@ -130,6 +129,8 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
         case DateFormat.SHORT:
           pattern.append (PATTERN_TIME_SHORT);
           break;
+        default:
+          throw new IllegalArgumentException ("Unsupported time style");
       }
 
       return new SimpleDateFormat (pattern.toString (), locale);
