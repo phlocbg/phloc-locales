@@ -47,7 +47,7 @@ public final class GalicianTimeZoneNameProvider extends TimeZoneNameProvider
     {
       throw new NullPointerException ();
     }
-    if (!isStyleValid (style))
+    if (!_isStyleValid (style))
     {
       throw new IllegalArgumentException ("Style \"" + style + "\" is not valid");
     }
@@ -124,7 +124,7 @@ public final class GalicianTimeZoneNameProvider extends TimeZoneNameProvider
                                         ")");
   }
 
-  private static boolean isStyleValid (final int style)
+  private static boolean _isStyleValid (final int style)
   {
     return (style == TimeZone.SHORT || style == TimeZone.LONG);
   }

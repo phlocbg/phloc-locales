@@ -31,8 +31,8 @@ import com.phloc.locales.gl.GalicianLocales;
 public final class GalicianLocaleNameProvider extends LocaleNameProvider
 {
 
-  private static final Map <String, String> GALICIAN_DISPLAY_COUNTRIES = createGalicianDisplayCountries ();
-  private static final Map <String, String> GALICIAN_DISPLAY_LANGUAGES = createGalicianDisplayLanguages ();
+  private static final Map <String, String> GALICIAN_DISPLAY_COUNTRIES = _createGalicianDisplayCountries ();
+  private static final Map <String, String> GALICIAN_DISPLAY_LANGUAGES = _createGalicianDisplayLanguages ();
 
   public GalicianLocaleNameProvider ()
   {
@@ -102,7 +102,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
     return GalicianLocales.getLocaleArray ();
   }
 
-  private static Map <String, String> createGalicianDisplayCountries ()
+  private static Map <String, String> _createGalicianDisplayCountries ()
   {
     final Map <String, String> displayCountries = new HashMap <String, String> ();
     displayCountries.put ("AD", "Andorra");
@@ -350,7 +350,7 @@ public final class GalicianLocaleNameProvider extends LocaleNameProvider
     return displayCountries;
   }
 
-  private static Map <String, String> createGalicianDisplayLanguages ()
+  private static Map <String, String> _createGalicianDisplayLanguages ()
   {
     final Map <String, String> displayLanguages = new HashMap <String, String> ();
     displayLanguages.put ("aa", "afarense");

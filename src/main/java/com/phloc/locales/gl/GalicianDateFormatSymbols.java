@@ -23,11 +23,8 @@ package com.phloc.locales.gl;
 
 import java.text.DateFormatSymbols;
 
-
 public final class GalicianDateFormatSymbols extends DateFormatSymbols
 {
-  private static final long serialVersionUID = 6772605910726027718L;
-
   private static final String [] GALICIAN_MONTHS = { "xaneiro",
                                                     "febreiro",
                                                     "marzo",
