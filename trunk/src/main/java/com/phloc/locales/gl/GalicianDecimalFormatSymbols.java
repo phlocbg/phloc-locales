@@ -23,11 +23,8 @@ package com.phloc.locales.gl;
 
 import java.text.DecimalFormatSymbols;
 
-
 public final class GalicianDecimalFormatSymbols extends DecimalFormatSymbols
 {
-  private static final long serialVersionUID = 1695685661887828997L;
-
   public GalicianDecimalFormatSymbols ()
   {
     super (GalicianLocales.CASTILIAN);

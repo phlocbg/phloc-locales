@@ -53,7 +53,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
     {
       throw new NullPointerException ();
     }
-    if (!isStyleValid (style))
+    if (!_isStyleValid (style))
     {
       throw new IllegalArgumentException ("Style \"" + style + "\" is not valid");
     }
@@ -86,11 +86,11 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
     {
       throw new NullPointerException ();
     }
-    if (!isStyleValid (dateStyle))
+    if (!_isStyleValid (dateStyle))
     {
       throw new IllegalArgumentException ("Style \"" + dateStyle + "\" is not valid");
     }
-    if (!isStyleValid (timeStyle))
+    if (!_isStyleValid (timeStyle))
     {
       throw new IllegalArgumentException ("Style \"" + timeStyle + "\" is not valid");
     }
@@ -151,7 +151,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
     {
       throw new NullPointerException ();
     }
-    if (!isStyleValid (style))
+    if (!_isStyleValid (style))
     {
       throw new IllegalArgumentException ("Style \"" + style + "\" is not valid");
     }
@@ -177,7 +177,7 @@ public final class GalicianDateFormatProvider extends DateFormatProvider
                                         ")");
   }
 
-  private static boolean isStyleValid (final int style)
+  private static boolean _isStyleValid (final int style)
   {
     return (style == DateFormat.SHORT || style == DateFormat.MEDIUM || style == DateFormat.LONG || style == DateFormat.FULL);
   }
