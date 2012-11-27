@@ -21,16 +21,14 @@
  */
 package com.phloc.locales.gl;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.Calendar;
 import java.util.TimeZone;
-
-import junit.framework.Assert;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.phloc.locales.gl.GalicianDateFormatSymbols;
-import com.phloc.locales.gl.GalicianLocales;
 import com.phloc.locales.gl.spi.GalicianTimeZoneNameProvider;
 
 /**
@@ -49,9 +47,9 @@ public final class GalicianDateFormatSymbolsTest
   @Test
   public void testWeekdays () throws Exception
   {
-    Assert.assertEquals ("luns", m_aDateFormatSymbols.getWeekdays ()[Calendar.MONDAY]);
-    Assert.assertEquals ("xoves", m_aDateFormatSymbols.getWeekdays ()[Calendar.THURSDAY]);
-    Assert.assertEquals ("venres", m_aDateFormatSymbols.getWeekdays ()[Calendar.FRIDAY]);
+    assertEquals ("luns", m_aDateFormatSymbols.getWeekdays ()[Calendar.MONDAY]);
+    assertEquals ("xoves", m_aDateFormatSymbols.getWeekdays ()[Calendar.THURSDAY]);
+    assertEquals ("venres", m_aDateFormatSymbols.getWeekdays ()[Calendar.FRIDAY]);
   }
 
   @Test
