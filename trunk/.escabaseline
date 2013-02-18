@@ -1,0 +1,140 @@
+# Enerjy Software baseline data (files=32, problems=107).
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/GalicianDateFormatSymbols.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianDateFormatSymbols'
+problem: JAVA0234:JAVA0234 Class 'GalicianDateFormatSymbols' is Serializable but does not define serialVersionUID
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/GalicianDecimalFormatSymbols.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianDecimalFormatSymbols'
+problem: JAVA0234:JAVA0234 Class 'GalicianDecimalFormatSymbols' is Serializable but does not define serialVersionUID
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/GalicianLocales.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianLocales'
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'GALICIAN'
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'GALICIAN_ES'
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'GALICIAN_LIST'
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'CASTILIAN'
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianBreakIteratorProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianBreakIteratorProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianBreakIteratorProvider'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianCollatorProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianCollatorProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianCollatorProvider'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianCurrencyNameProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianCurrencyNameProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianCurrencyNameProvider'
+problem: JAVA0058:JAVA0058 Constructor 'GalicianCurrencyNameProvider' calls super()
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianDateFormatProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianDateFormatProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianDateFormatProvider'
+problem: JAVA0058:JAVA0058 Constructor 'GalicianDateFormatProvider' calls super()
+problem: JAVA0032:JAVA0032 Switch statement missing default
+problem: JAVA0032:JAVA0032 Switch statement missing default
+problem: JAVA0018:JAVA0018 Method name '_isStyleValid' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianDateFormatSymbolsProvider.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianDateFormatSymbolsProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianDateFormatSymbolsProvider'
+problem: JAVA0058:JAVA0058 Constructor 'GalicianDateFormatSymbolsProvider' calls super()
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianDecimalFormatSymbolsProvider.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianDecimalFormatSymbolsProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianDecimalFormatSymbolsProvider'
+problem: JAVA0058:JAVA0058 Constructor 'GalicianDecimalFormatSymbolsProvider' calls super()
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianLocaleNameProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianLocaleNameProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianLocaleNameProvider'
+problem: JAVA0058:JAVA0058 Constructor 'GalicianLocaleNameProvider' calls super()
+problem: JAVA0018:JAVA0018 Method name '_createGalicianDisplayCountries' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_createGalicianDisplayLanguages' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianNumberFormatProvider.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianNumberFormatProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianNumberFormatProvider'
+problem: JAVA0058:JAVA0058 Constructor 'GalicianNumberFormatProvider' calls super()
+path: /phloc-locales/src/main/java/com/phloc/locales/gl/spi/GalicianTimeZoneNameProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GalicianTimeZoneNameProvider'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'GalicianTimeZoneNameProvider'
+problem: JAVA0058:JAVA0058 Constructor 'GalicianTimeZoneNameProvider' calls super()
+problem: JAVA0032:JAVA0032 Switch statement missing default
+problem: JAVA0032:JAVA0032 Switch statement missing default
+problem: JAVA0032:JAVA0032 Switch statement missing default
+problem: JAVA0018:JAVA0018 Method name '_isStyleValid' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/AbstractLocaleCollatorProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractLocaleCollatorProvider'
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/AbstractLocaleDateFormatProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractLocaleDateFormatProvider'
+problem: JAVA0018:JAVA0018 Method name '_selectDateFormatForStyle' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_selectTimeFormatForStyle' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/AbstractLocaleDateFormatSymbolsProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractLocaleDateFormatSymbolsProvider'
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/AbstractLocaleDecimalFormatSymbolsProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractLocaleDecimalFormatSymbolsProvider'
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/AbstractLocaleLocaleNameProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractLocaleLocaleNameProvider'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_badCountryCodeFormat' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_badLanguageCodeFormat' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/AbstractLocaleNumberFormatProvider.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractLocaleNumberFormatProvider'
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/ILocaleData.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0136:JAVA0136 35 methods defined in class 'ILocaleData' (maximum: 20)
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/LocaleDateFormatSymbols.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'LocaleDateFormatSymbols'
+problem: JAVA0234:JAVA0234 Class 'LocaleDateFormatSymbols' is Serializable but does not define serialVersionUID
+problem: JAVA0059:JAVA0059 Method override 'equals' only calls super()
+problem: JAVA0059:JAVA0059 Method override 'hashCode' only calls super()
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/LocaleDecimalFormatSymbols.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'LocaleDecimalFormatSymbols'
+problem: JAVA0234:JAVA0234 Class 'LocaleDecimalFormatSymbols' is Serializable but does not define serialVersionUID
+problem: JAVA0059:JAVA0059 Method override 'equals' only calls super()
+problem: JAVA0059:JAVA0059 Method override 'hashCode' only calls super()
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/Serbocroatian.java
+problem: JAVA0136:JAVA0136 35 methods defined in class 'Serbocroatian' (maximum: 20)
+problem: JAVA0234:JAVA0234 Class 'Serbocroatian' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/Serbocroatian_BA.java
+problem: JAVA0234:JAVA0234 Class 'Serbocroatian_BA' is Serializable but does not define serialVersionUID
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/Serbocroatian_HR.java
+problem: JAVA0234:JAVA0234 Class 'Serbocroatian_HR' is Serializable but does not define serialVersionUID
+path: /phloc-locales/src/main/java/com/phloc/locales/sh/Serbocroatian_RS.java
+problem: JAVA0234:JAVA0234 Class 'Serbocroatian_RS' is Serializable but does not define serialVersionUID
+path: /phloc-locales/src/test/java/com/phloc/locales/functest/FuncTestCollator.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'FuncTestCollator'
+path: /phloc-locales/src/test/java/com/phloc/locales/functest/FuncTestDateFormat.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'FuncTestDateFormat'
+problem: JAVA0130:JAVA0130 Non-static method 'formatDayRange' does not use instance fields
+problem: JAVA0264:JAVA0264 Integer math in long context - check for overflow
+problem: JAVA0076:JAVA0076 Use of magic number '60'
+problem: JAVA0076:JAVA0076 Use of magic number '60'
+path: /phloc-locales/src/test/java/com/phloc/locales/functest/FuncTestDateFormatSymbols.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'FuncTestDateFormatSymbols'
+problem: JAVA0076:JAVA0076 Use of magic number '8'
+problem: JAVA0076:JAVA0076 Use of magic number '8'
+problem: JAVA0076:JAVA0076 Use of magic number '8'
+problem: JAVA0076:JAVA0076 Use of magic number '8'
+problem: JAVA0076:JAVA0076 Use of magic number '8'
+problem: JAVA0076:JAVA0076 Use of magic number '8'
+path: /phloc-locales/src/test/java/com/phloc/locales/functest/FuncTestDecimalFormatSymbols.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'FuncTestDecimalFormatSymbols'
+path: /phloc-locales/src/test/java/com/phloc/locales/functest/FuncTestLocaleName.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'FuncTestLocaleName'
+path: /phloc-locales/src/test/java/com/phloc/locales/functest/FuncTestNumberFormat.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'FuncTestNumberFormat'
+path: /phloc-locales/src/test/java/com/phloc/locales/gl/GalicianDateFormatSymbolsTest.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0137:JAVA0137 Non-abstract class 'GalicianDateFormatSymbolsTest' missing constructor
+problem: JAVA0160:JAVA0160 Method 'testWeekdays' does not throw specified exception 'java.lang.Exception'
+problem: JAVA0160:JAVA0160 Method 'testTimeZoneNames' does not throw specified exception 'java.lang.Exception'
